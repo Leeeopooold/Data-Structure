@@ -258,7 +258,7 @@ int main() {
 	};
 
 	AdjGraph G2;
-	G2.CreateAdjGraph(directedGraph, 5, 5);  // 创建5个顶点5条边的有向图
+	G2.CreateAdjGraph(directedGraph, 5, 6);  // 创建5个顶点6条边的有向图
 	cout << "有向图的邻接表表示:" << endl;
 	G2.DispAdjGraph();  // 显示邻接表
 
